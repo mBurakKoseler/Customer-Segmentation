@@ -60,7 +60,22 @@ These segments can be used to better understand customer behavior and adjust mar
 The provided bar chart represents country-wise total spending segmentation on a logarithmic scale. 
 
 **High Spending Countries (Green)**
+
 **Medium Spending Countries (Blue)**
+
 **Low Spending Countries (Red)**
 
-This segmentation is valuable for businesses to target their marketing and sales efforts more effectively based on the spending behavior of customers in different countries. High spending countries might be targeted for premium products or services, while medium and low spending countries might require different strategies to increase customer engagement and spending.
+This segmentation is valuable for businesses to target their marketing and sales efforts more effectively based on the spending behavior of customers in different countries. High spending countries might be targeted for premium products or services, while medium and low spending countries might require different strategies to increase customer engagement and spending. Detailed information about which countries are in which clusters with how much spending is printed in the **segmentation_report.txt** file.
+
+
+**Product Segmentation Chart**
+
+![product_segmentation_plot](https://github.com/user-attachments/assets/98adef39-7ea6-401d-98ab-02fecdd4e7a7)
+
+
+Aggregating the frequency with which the product is sold ensures accurate product advertising. You can find detailed information about which products are in which clusters in the product_segmentation_report.txt file.
+
+
+
+
+
