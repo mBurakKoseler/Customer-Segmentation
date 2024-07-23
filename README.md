@@ -1,17 +1,17 @@
 # Customer-Segmentation
 customer segmentation with python
 
-This repository contains all the necessary code and documentation to perform customer segmentation analysis using transaction data. By leveraging Python and various data analysis libraries, this project aims to provide insights into customer behavior, enabling businesses to tailor their strategies more effectively. Customer segmentation is a crucial task for businesses looking to understand their customer base and tailor their marketing strategies accordingly. By segmenting customers based on their purchasing behavior, businesses can identify high-value customers, understand their needs, and design targeted marketing campaigns.
+      This repository contains all the necessary code and documentation to perform customer segmentation analysis using transaction data. By leveraging Python and various data analysis libraries, this project aims to provide insights into customer behavior, enabling businesses to tailor their strategies more effectively. Customer segmentation is a crucial task for businesses looking to understand their customer base and tailor their marketing strategies accordingly. By segmenting customers based on their purchasing behavior, businesses can identify high-value customers, understand their needs, and design targeted marketing campaigns.
 
 This project utilizes Python to perform customer segmentation using transaction data. The main techniques employed include data preprocessing, feature engineering, and clustering algorithms. Visualizations are also provided to help interpret the segmentation results.
 
 **Features**
 
-  Data Preprocessing: Clean and preprocess transaction data for analysis.
-  Feature Engineering: Calculate total spending, purchase frequency, and other relevant features.
-  Clustering Algorithms: Implement k-means clustering to segment customers based on their purchasing behavior.
-  Visualization: Generate visualizations to interpret and present the segmentation results.
-  Country and Product Segmentation: Additional segmentation based on country and product sales.
+  • Data Preprocessing: Clean and preprocess transaction data for analysis.
+  • Feature Engineering: Calculate total spending, purchase frequency, and other relevant features.
+  • Clustering Algorithms: Implement k-means clustering to segment customers based on their purchasing behavior.
+  • Visualization: Generate visualizations to interpret and present the segmentation results.
+  • Country and Product Segmentation: Additional segmentation based on country and product sales.
 
 **DataSet**
 
