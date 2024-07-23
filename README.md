@@ -19,8 +19,10 @@ This project utilizes Python to perform customer segmentation using transaction 
 
 **DataSet**
 
-The data set used in this project was selected from Kaggle. The dataset contains 540K Samples from the online purchasing history of 2.4K customers. https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset/data
+The data set used in this project was selected from Kaggle. The dataset contains 540K Samples from the online purchasing history of 2.4K customers. 
 Thanks to the relevant people for preparing this data. You can access the data set from this link. (data set is also available in the project)
+
+https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset/data
 
 **Elbow Method**
 
