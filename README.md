@@ -33,19 +33,20 @@ Elbow method is a technique used to determine the optimal number of clusters in 
 The Elbow method graph shows how the inertia values ​​change for different cluster numbers. Usually, the elbow point on the graph represents the optimal cluster number. This point is where the inertia value decreases significantly, but after a certain point the rate of decrease slows down. For this dataset, in the above graph the optimal number of clusters appears to be 4.
 
 
+
 **Customer Segmentation Chart**
 
 ![customer_segmentation](https://github.com/user-attachments/assets/cc6289f0-89b9-43bb-9334-c921f44a385e)
 
 According to the customer segments seen on this chart, we can define customer segments by giving appropriate names to each cluster and specifying cluster properties. The chart divides customers into four clusters based on the values ​​of TotalSpendand PurchaseFrequency. These segments and their properties can be as follows:
 
-**Cluster 0 - Low Spend, Low Frequency**
+   **Cluster 0 - Low Spend, Low Frequency**
 
-**Cluster 1 - Medium Spending, Medium Frequency**
+   **Cluster 1 - Medium Spending, Medium Frequency**
 
-**Cluster 2 - High Spending, High Frequency**
+   **Cluster 2 - High Spending, High Frequency**
 
-**Cluster 3 - High Spending, Low Frequency**
+   **Cluster 3 - High Spending, Low Frequency**
 
 
 These segments can be used to better understand customer behavior and adjust marketing strategies accordingly. For example, special campaigns can be run to encourage customers in the Low Spend, Low Frequency segment to shop more.
