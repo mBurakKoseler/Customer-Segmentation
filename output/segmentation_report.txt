@@ -1,0 +1,44 @@
+High Spending:
+  United Kingdom: 8187806.36
+  Netherlands: 284661.54
+  EIRE: 263276.82
+  Germany: 221698.21
+  France: 197403.90
+  Australia: 137077.27
+  Switzerland: 56385.35
+  Spain: 54774.58
+  Belgium: 40910.96
+  Sweden: 36595.91
+
+Medium Spending:
+  Japan: 35340.62
+  Norway: 35163.46
+  Portugal: 29367.02
+  Finland: 22326.74
+  Channel Islands: 20086.29
+  Denmark: 18768.14
+  Italy: 16890.51
+  Cyprus: 12946.29
+  Austria: 10154.32
+  Hong Kong: 10117.04
+  Singapore: 9120.39
+  Israel: 7907.82
+  Poland: 7213.14
+  Unspecified: 4749.79
+  Greece: 4710.52
+  Iceland: 4310.00
+  Canada: 3666.38
+  Malta: 2505.47
+
+Low Spending:
+  United Arab Emirates: 1902.28
+  USA: 1730.92
+  Lebanon: 1693.88
+  Lithuania: 1661.06
+  European Community: 1291.75
+  Brazil: 1143.60
+  RSA: 1002.31
+  Czech Republic: 707.72
+  Bahrain: 548.40
+  Saudi Arabia: 131.17
+
