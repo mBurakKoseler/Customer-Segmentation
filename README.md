@@ -34,6 +34,8 @@ The Elbow method graph shows how the inertia values ​​change for different c
 
 
 
+
+
 **Customer Segmentation Chart**
 
 ![customer_segmentation](https://github.com/user-attachments/assets/cc6289f0-89b9-43bb-9334-c921f44a385e)
