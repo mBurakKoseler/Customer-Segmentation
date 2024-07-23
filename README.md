@@ -7,11 +7,11 @@ This project utilizes Python to perform customer segmentation using transaction 
 
 **Features**
 
- > Data Preprocessing: Clean and preprocess transaction data for analysis.
- > Feature Engineering: Calculate total spending, purchase frequency, and other relevant features.
- > Clustering Algorithms: Implement k-means clustering to segment customers based on their purchasing behavior.
- > Visualization: Generate visualizations to interpret and present the segmentation results.
- > Country and Product Segmentation: Additional segmentation based on country and product sales.
+  Data Preprocessing: Clean and preprocess transaction data for analysis.
+  Feature Engineering: Calculate total spending, purchase frequency, and other relevant features.
+  Clustering Algorithms: Implement k-means clustering to segment customers based on their purchasing behavior.
+  Visualization: Generate visualizations to interpret and present the segmentation results.
+  Country and Product Segmentation: Additional segmentation based on country and product sales.
 
 **DataSet**
 
