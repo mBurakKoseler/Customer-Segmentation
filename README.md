@@ -49,7 +49,18 @@ According to the customer segments seen on this chart, we can define customer se
    **Cluster 3 - High Spending, Low Frequency**
 
 
-These segments can be used to better understand customer behavior and adjust marketing strategies accordingly. For example, special campaigns can be run to encourage customers in the Low Spend, Low Frequency segment to shop more.
+These segments can be used to better understand customer behavior and adjust marketing strategies accordingly. For example, special campaigns can be run to encourage customers in the Low Spend, Low Frequency segment to shop more. You can also see a list of which users are in which clusters in the **customer_clusters.txt** file.
 
 
+**Counter Segmentation Chart**
 
+![segmentation_plot](https://github.com/user-attachments/assets/971ccc1c-5794-4e48-bad5-4660b20254b5)
+
+
+The provided bar chart represents country-wise total spending segmentation on a logarithmic scale. 
+
+**High Spending Countries (Green)**
+**Medium Spending Countries (Blue)**
+**Low Spending Countries (Red)**
+
+This segmentation is valuable for businesses to target their marketing and sales efforts more effectively based on the spending behavior of customers in different countries. High spending countries might be targeted for premium products or services, while medium and low spending countries might require different strategies to increase customer engagement and spending.
