@@ -1,81 +1,125 @@
-# Customer-Segmentation
-customer segmentation with python
+# 🧠 Customer Segmentation with Python
 
-*This repository includes code and documentation for performing customer segmentation analysis using transaction data. Utilizing Python and various data analysis libraries, this project provides insights into customer behavior, helping businesses tailor their strategies more effectively. Customer segmentation is essential for understanding the customer base and creating targeted marketing strategies. By segmenting customers based on purchasing behavior, businesses can identify high-value customers, understand their needs, and design focused marketing campaigns.*
+This repository includes code and documentation for performing **customer segmentation analysis using transaction data**.  
+Utilizing Python and various data science libraries, this project provides actionable insights into customer behavior — helping businesses **identify high-value customers**, **understand their spending habits**, and **design targeted marketing strategies**.
 
-This project utilizes Python to perform customer segmentation using transaction data. The main techniques employed include data preprocessing, feature engineering, and clustering algorithms. Visualizations are also provided to help interpret the segmentation results.
+---
 
-**Features**
-      
-        • Data Preprocessing: Clean and preprocess transaction data for analysis.
-        
-        • Feature Engineering: Calculate total spending, purchase frequency, and other relevant features.
-        
-        • Clustering Algorithms: Implement k-means clustering to segment customers based on their purchasing behavior.
-        
-        • Visualization: Generate visualizations to interpret and present the segmentation results.
-        
-        • Country and Product Segmentation: Additional segmentation based on country and product sales.
+## 📊 Project Overview
 
-**DataSet**
+Customer segmentation is essential for understanding a business's customer base and optimizing marketing efforts.  
+In this project, customer behavior is analyzed based on **total spend**, **purchase frequency**, **country**, and **product preferences**, with clear visualizations for each segment.
 
-The data set used in this project was selected from Kaggle. The dataset contains 540K Samples from the online purchasing history of 2.4K customers. 
-Thanks to the relevant people for preparing this data. You can access the data set from this link. (data set is also available in the project)
+---
 
-https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset/data
+## 🚀 Features
 
-**Elbow Method**
+- 🔄 **Data Preprocessing**: Clean and transform transaction data  
+- 🧮 **Feature Engineering**: Calculate total spending, purchase frequency, and more  
+- 🔍 **Clustering**: Segment customers using K-Means algorithm  
+- 🌍 **Country-Based Segmentation**  
+- 📦 **Product-Based Segmentation**  
+- 📈 **Visualizations**: Graphical insights for all segmentations
 
-Elbow method is a technique used to determine the optimal number of clusters in clustering operations using the K-means algorithm. In this method, total squared errors (inertia) are calculated for different cluster numbers and visualized on a graph. The breakpoint (elbow) in the graph indicates the optimal number of clusters.
+---
+
+## 📂 Dataset
+
+The dataset was obtained from Kaggle:  
+🔗 https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset/data  
+It contains **540K transactions** from the **online purchasing history of 2.4K customers**.
+
+> The dataset is also included in this repository under the `data/` folder as `dataset.xlsx`.
+
+---
+
+## ⚙️ How to Run
+
+1. Install required packages:
+
+```bash
+pip install pandas matplotlib seaborn scikit-learn openpyxl
+```
+
+2. Run the main analysis script:
+
+```bash
+python main.py
+```
+
+3. Segment results and charts will be generated.
+
+---
+
+## 📌 Clustering Method: Elbow Method
+
+The **Elbow Method** is used to determine the optimal number of clusters in K-Means.  
+It plots the **inertia (total squared error)** for various `k` values and detects where the drop in inertia slows down (the “elbow”).
 
 ![elbow_method](https://github.com/user-attachments/assets/9927bd04-63c6-4aa3-8227-f830db0e89da)
 
-The Elbow method graph shows how the inertia values ​​change for different cluster numbers. Usually, the elbow point on the graph represents the optimal cluster number. This point is where the inertia value decreases significantly, but after a certain point the rate of decrease slows down. For this dataset, in the above graph the optimal number of clusters appears to be 4.
+In this dataset, the optimal number of clusters is determined to be **4**.
 
+---
 
-
-
-
-**Customer Segmentation Chart**
+## 👥 Customer Segmentation Chart
 
 ![customer_segmentation](https://github.com/user-attachments/assets/cc6289f0-89b9-43bb-9334-c921f44a385e)
 
-According to the customer segments seen on this chart, we can define customer segments by giving appropriate names to each cluster and specifying cluster properties. The chart divides customers into four clusters based on the values ​​of TotalSpendand PurchaseFrequency. These segments and their properties can be as follows:
+Customers are grouped into 4 clusters based on **Total Spend** and **Purchase Frequency**:
 
-   **Cluster 0 - Low Spend, Low Frequency**
+- **Cluster 0** – Low Spend, Low Frequency  
+- **Cluster 1** – Medium Spend, Medium Frequency  
+- **Cluster 2** – High Spend, High Frequency  
+- **Cluster 3** – High Spend, Low Frequency  
 
-   **Cluster 1 - Medium Spending, Medium Frequency**
+> The file `customer_clusters.txt` contains detailed listings of which users belong to which cluster.
 
-   **Cluster 2 - High Spending, High Frequency**
+---
 
-   **Cluster 3 - High Spending, Low Frequency**
-
-
-These segments can be used to better understand customer behavior and adjust marketing strategies accordingly. For example, special campaigns can be run to encourage customers in the Low Spend, Low Frequency segment to shop more. You can also see a list of which users are in which clusters in the **customer_clusters.txt** file.
-
-
-**Counter Segmentation Chart**
+## 🌍 Country Segmentation Chart
 
 ![segmentation_plot](https://github.com/user-attachments/assets/971ccc1c-5794-4e48-bad5-4660b20254b5)
 
+This bar chart represents **total spending per country** on a logarithmic scale.
 
-The provided bar chart represents country-wise total spending segmentation on a logarithmic scale. 
+- 🟩 High Spending Countries  
+- 🟦 Medium Spending Countries  
+- 🟥 Low Spending Countries  
 
-**High Spending Countries (Green)**
+> The `segmentation_report.txt` file includes country-wise segmentation results and spend amounts.
 
-**Medium Spending Countries (Blue)**
+This segmentation is valuable for:
 
-**Low Spending Countries (Red)**
+- Targeting premium products to high-spending countries  
+- Developing growth strategies for medium/low spending regions
 
-This segmentation is valuable for businesses to target their marketing and sales efforts more effectively based on the spending behavior of customers in different countries. High spending countries might be targeted for premium products or services, while medium and low spending countries might require different strategies to increase customer engagement and spending. Detailed information about which countries are in which clusters with how much spending is printed in the **segmentation_report.txt** file.
+---
 
-
-**Product Segmentation Chart**
+## 📦 Product Segmentation Chart
 
 ![product_segmentation_plot](https://github.com/user-attachments/assets/98adef39-7ea6-401d-98ab-02fecdd4e7a7)
 
+Segmenting products based on purchase frequency enables **smarter product promotion** and **category targeting**.
 
-Aggregating the frequency with which the product is sold ensures accurate product advertising. You can find detailed information about which products are in which clusters in the product_segmentation_report.txt file.
+> Product segmentation results are saved in `product_segmentation_report.txt`.
 
+---
 
-*This project effectively segmented customers based on their spending behavior using transaction data. By identifying high, medium, and low spending countries, it provides actionable insights for businesses to tailor their marketing strategies. High spending countries can be targeted with premium offerings, while engagement strategies can be designed for medium and low spending countries. This data-driven approach helps businesses optimize marketing efforts and improve customer satisfaction and profitability.*
+## 📜 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## ✅ Summary
+
+This project demonstrates how **clustering algorithms and behavioral features** can be used to meaningfully segment customers.  
+By identifying customer clusters based on spending habits, businesses can:
+
+- Tailor marketing and pricing strategies  
+- Prioritize loyal or high-value customers  
+- Identify opportunities for growth across product lines and geographies
+
+📈 **Understand your customers → Segment them smartly → Drive business value**
